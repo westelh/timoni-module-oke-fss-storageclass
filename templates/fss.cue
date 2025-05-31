@@ -31,7 +31,7 @@ import (
 			exportOptions: #config.exportOptions
 		}
 		"oci.oraclecloud.com/initial-defined-tags-override": json.Marshal(#config.definedTags)
-		"oci.oraclecloud.com/initial-freeform-tags-override": json.Marshal(#config.definedTags)
+		"oci.oraclecloud.com/initial-freeform-tags-override": json.Marshal(#config.freeformTags)
 	}
 	reclaimPolicy: #config.reclaimPolicy
 	allowVolumeExpansion: #config.allowVolumeExpansion
